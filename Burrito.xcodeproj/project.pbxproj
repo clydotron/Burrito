@@ -13,6 +13,7 @@
 		1ED295FB23231F630059D117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED295F923231F630059D117 /* Main.storyboard */; };
 		1ED295FD23231F660059D117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED295FC23231F660059D117 /* Assets.xcassets */; };
 		1ED2960023231F660059D117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED295FE23231F660059D117 /* LaunchScreen.storyboard */; };
+		1ED29608232320470059D117 /* CitizenScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED29607232320470059D117 /* CitizenScienceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1ED295FC23231F660059D117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ED295FF23231F660059D117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ED2960123231F660059D117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED29607232320470059D117 /* CitizenScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenScienceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1ED295FC23231F660059D117 /* Assets.xcassets */,
 				1ED295FE23231F660059D117 /* LaunchScreen.storyboard */,
 				1ED2960123231F660059D117 /* Info.plist */,
+				1ED29607232320470059D117 /* CitizenScienceViewController.swift */,
 			);
 			path = Burrito;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED29608232320470059D117 /* CitizenScienceViewController.swift in Sources */,
 				1ED295F823231F630059D117 /* SecondViewController.swift in Sources */,
 				1ED295F423231F630059D117 /* AppDelegate.swift in Sources */,
 				1ED295F623231F630059D117 /* FirstViewController.swift in Sources */,
@@ -287,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7645S34N2Y;
 				INFOPLIST_FILE = Burrito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7645S34N2Y;
 				INFOPLIST_FILE = Burrito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
