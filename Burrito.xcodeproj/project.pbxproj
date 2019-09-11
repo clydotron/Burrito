@@ -14,6 +14,14 @@
 		1ED295FD23231F660059D117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED295FC23231F660059D117 /* Assets.xcassets */; };
 		1ED2960023231F660059D117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED295FE23231F660059D117 /* LaunchScreen.storyboard */; };
 		1ED29608232320470059D117 /* CitizenScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED29607232320470059D117 /* CitizenScienceViewController.swift */; };
+		1ED2960A2323276F0059D117 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED296092323276F0059D117 /* CategoryTableViewController.swift */; };
+		1ED2960C232327C40059D117 /* TideDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2960B232327C40059D117 /* TideDataViewController.swift */; };
+		1ED2960F232329630059D117 /* OrganismDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2960E232329630059D117 /* OrganismDetailViewController.swift */; };
+		1ED2961123232DAA0059D117 /* MarineLifeGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2961023232DAA0059D117 /* MarineLifeGroups.swift */; };
+		1ED2961423232F0B0059D117 /* MasterGroups.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2961323232F0B0059D117 /* MasterGroups.json */; };
+		1ED296162328307C0059D117 /* Organism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED296152328307C0059D117 /* Organism.swift */; };
+		1ED29619232834990059D117 /* Organisms.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ED29618232834990059D117 /* Organisms.json */; };
+		1ED2961B232836BE0059D117 /* OrganismRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2961A232836BE0059D117 /* OrganismRepo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		1ED295FF23231F660059D117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ED2960123231F660059D117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ED29607232320470059D117 /* CitizenScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenScienceViewController.swift; sourceTree = "<group>"; };
+		1ED296092323276F0059D117 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		1ED2960B232327C40059D117 /* TideDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideDataViewController.swift; sourceTree = "<group>"; };
+		1ED2960E232329630059D117 /* OrganismDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismDetailViewController.swift; sourceTree = "<group>"; };
+		1ED2961023232DAA0059D117 /* MarineLifeGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarineLifeGroups.swift; sourceTree = "<group>"; };
+		1ED2961323232F0B0059D117 /* MasterGroups.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MasterGroups.json; sourceTree = "<group>"; };
+		1ED296152328307C0059D117 /* Organism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organism.swift; sourceTree = "<group>"; };
+		1ED29618232834990059D117 /* Organisms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Organisms.json; sourceTree = "<group>"; };
+		1ED2961A232836BE0059D117 /* OrganismRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismRepo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,9 @@
 		1ED295E723231F630059D117 = {
 			isa = PBXGroup;
 			children = (
+				1ED2961223232ED60059D117 /* Data */,
+				1ED2960E232329630059D117 /* OrganismDetailViewController.swift */,
+				1ED2960D2323280C0059D117 /* Views */,
 				1ED295F223231F630059D117 /* Burrito */,
 				1ED295F123231F630059D117 /* Products */,
 			);
@@ -59,15 +78,36 @@
 			isa = PBXGroup;
 			children = (
 				1ED295F323231F630059D117 /* AppDelegate.swift */,
-				1ED295F523231F630059D117 /* FirstViewController.swift */,
-				1ED295F723231F630059D117 /* SecondViewController.swift */,
 				1ED295F923231F630059D117 /* Main.storyboard */,
 				1ED295FC23231F660059D117 /* Assets.xcassets */,
 				1ED295FE23231F660059D117 /* LaunchScreen.storyboard */,
 				1ED2960123231F660059D117 /* Info.plist */,
-				1ED29607232320470059D117 /* CitizenScienceViewController.swift */,
+				1ED2961023232DAA0059D117 /* MarineLifeGroups.swift */,
+				1ED296152328307C0059D117 /* Organism.swift */,
 			);
 			path = Burrito;
+			sourceTree = "<group>";
+		};
+		1ED2960D2323280C0059D117 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1ED296092323276F0059D117 /* CategoryTableViewController.swift */,
+				1ED2960B232327C40059D117 /* TideDataViewController.swift */,
+				1ED29607232320470059D117 /* CitizenScienceViewController.swift */,
+				1ED295F523231F630059D117 /* FirstViewController.swift */,
+				1ED295F723231F630059D117 /* SecondViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ED2961223232ED60059D117 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1ED2961323232F0B0059D117 /* MasterGroups.json */,
+				1ED29618232834990059D117 /* Organisms.json */,
+				1ED2961A232836BE0059D117 /* OrganismRepo.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ED2960023231F660059D117 /* LaunchScreen.storyboard in Resources */,
+				1ED29619232834990059D117 /* Organisms.json in Resources */,
+				1ED2961423232F0B0059D117 /* MasterGroups.json in Resources */,
 				1ED295FD23231F660059D117 /* Assets.xcassets in Resources */,
 				1ED295FB23231F630059D117 /* Main.storyboard in Resources */,
 			);
@@ -142,8 +184,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ED29608232320470059D117 /* CitizenScienceViewController.swift in Sources */,
+				1ED2961B232836BE0059D117 /* OrganismRepo.swift in Sources */,
 				1ED295F823231F630059D117 /* SecondViewController.swift in Sources */,
+				1ED2960C232327C40059D117 /* TideDataViewController.swift in Sources */,
+				1ED2960F232329630059D117 /* OrganismDetailViewController.swift in Sources */,
+				1ED2960A2323276F0059D117 /* CategoryTableViewController.swift in Sources */,
+				1ED2961123232DAA0059D117 /* MarineLifeGroups.swift in Sources */,
 				1ED295F423231F630059D117 /* AppDelegate.swift in Sources */,
+				1ED296162328307C0059D117 /* Organism.swift in Sources */,
 				1ED295F623231F630059D117 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

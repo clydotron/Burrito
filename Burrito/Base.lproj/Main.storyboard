@@ -91,7 +91,7 @@
         <!--Root View Controller-->
         <scene sceneID="9pX-ht-1AK">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="GDP-Qj-IIk" sceneMemberID="viewController">
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="GDP-Qj-IIk" customClass="CategoryTableViewController" customModule="Burrito" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="694-1K-qIE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,6 +104,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="5sx-aZ-x4E" kind="showDetail" id="joW-KE-jMc"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -133,10 +136,11 @@
             </objects>
             <point key="canvasLocation" x="2988" y="338"/>
         </scene>
-        <!--Split View Controller-->
+        <!--Item-->
         <scene sceneID="w4h-Ee-tMV">
             <objects>
                 <splitViewController id="ST6-13-Cc4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Vbd-Cq-mp9"/>
                     <connections>
                         <segue destination="z2n-YU-Gut" kind="relationship" relationship="masterViewController" id="4WW-bS-x6w"/>
                         <segue destination="5sx-aZ-x4E" kind="relationship" relationship="detailViewController" id="dKL-4I-ob9"/>
@@ -144,12 +148,12 @@
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Xr-vU-ti3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2012" y="751"/>
+            <point key="canvasLocation" x="1513" y="-72"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Burrito" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="TideDataViewController" customModule="Burrito" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,9 +197,7 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="nOl-2f-2KX" kind="relationship" relationship="viewControllers" id="LYF-Sk-txH"/>
+                        <segue destination="ST6-13-Cc4" kind="relationship" relationship="viewControllers" id="caG-oN-JLs"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -207,4 +209,7 @@
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="joW-KE-jMc"/>
+    </inferredMetricsTieBreakers>
 </document>

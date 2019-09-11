@@ -12,10 +12,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var mainGroups: Groups?
+    var organismRepo: OrganismRepo?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        mainGroups = Groups.loadFromJSONFile(fileName: "MasterGroups.json")
+        
+        organismRepo = OrganismRepo.loadFromJSONFile(fileName: "Organisms.json")
+        
         return true
     }
 
