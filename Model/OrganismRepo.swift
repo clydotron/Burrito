@@ -9,7 +9,8 @@
 import Foundation
 
 class OrganismRepo: Decodable {
-    var organisms = [Organism]()
+    //var organisms = [Organism]()
+    var groups = [OrganismGroup]()
     
     static func loadFromJSONFile(fileName: String) -> OrganismRepo? {
         var bundleURL = Bundle.main.bundleURL

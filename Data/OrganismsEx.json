@@ -1,0 +1,36 @@
+{
+"groups" : [
+    {
+    "name" : "group1",
+    "members" : [
+        {
+        "commonName": "name1",
+        "fancyName": "fancy1"
+        "description": "words",
+        "funFacts": "facts",
+        "distribution":"CA"
+        },
+        {
+        "commonName": "name2",
+        "fancyName": "fancy2"
+        "description": "words",
+        "funFacts": "facts",
+        "distribution":"CA"
+        }
+    ]
+    },
+{
+"name": "group2",
+"members": [
+{
+"commonName": "name3",
+"fancyName": "fancy3"
+"description": "words",
+"funFacts": "facts",
+"distribution":"CA"
+}
+]
+}
+
+]
+}

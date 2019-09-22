@@ -1,23 +1,26 @@
 
 {
     "organisms": [
-        {   "commonName": "x"
-            "fancyName" : "F"
-            "description": "words"
-            "funFacts": "facts"
-            "habitat": "sea"
-            "diet": "food"
-            "taxonomy": "KFCOFGS"
-            "key":"key"
+        {   "commonName": "Clam",
+            "fancyName" : "MuslluskX",
+            "description": "words",
+            "funFacts": "facts",
+            "distribution":"CA"
         },
-        {   "commonName": "name2"
-            "fancyName" : "F2"
-            "description": "words2"
-            "funFacts": "facts2"
-            "habitat": "sea2"
-            "diet": "food2"
-            "taxonomy": "KFCOFGS"
-            "key":"key2"
+        {
+            "commonName": "Fish",
+            "fancyName" : "Fancy Fish",
+            "description": "words",
+            "funFacts": "facts",
+            "distribution":"CA"
+        },
+        {
+            "commonName": "Bat Ray",
+            "fancyName" : "words go here",
+            "description": "words",
+            "funFacts": "facts",
+            "distribution":"CA"
         }
+        
     ]
 }

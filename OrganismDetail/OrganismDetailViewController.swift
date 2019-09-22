@@ -10,13 +10,31 @@ import UIKit
 
 class OrganismDetailViewController: UIViewController {
 
+    var organism: Organism? {
+        didSet {
+            refreshUI()
+        }
+    }
+    
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var commonNameLabel: UILabel!
+    @IBOutlet weak var fancyNameLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+  
+        refreshUI();
     }
     
 
+        private func refreshUI() {
+            if commonNameLabel != nil {
+                commonNameLabel.text = organism?.commonName
+                fancyNameLabel.text = organism?.fancyName
+                
+            }
+        }
     /*
     // MARK: - Navigation
 

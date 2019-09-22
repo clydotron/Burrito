@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         mainGroups = Groups.loadFromJSONFile(fileName: "MasterGroups.json")
         
-        organismRepo = OrganismRepo.loadFromJSONFile(fileName: "Organisms.json")
+        organismRepo = OrganismRepo.loadFromJSONFile(fileName: "OrganismsNX.json")
         
         return true
     }

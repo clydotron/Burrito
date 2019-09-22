@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E09AB6B2336CD3200530323 /* OrganismGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AB6A2336CD3200530323 /* OrganismGroup.swift */; };
+		1E09AB6F2336ECD900530323 /* GroupsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AB6E2336ECD900530323 /* GroupsCollectionViewController.swift */; };
+		1E09AB742337B87200530323 /* GroupsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AB732337B87200530323 /* GroupsCollectionViewCell.swift */; };
+		1E09AB772337BBAF00530323 /* GroupDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AB762337BBAF00530323 /* GroupDetailTableViewCell.swift */; };
+		1E09AB792337C02A00530323 /* GroupDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AB782337C02A00530323 /* GroupDetailTableViewController.swift */; };
+		1E09AB7B2337CB8100530323 /* OrganismsNX.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E09AB7A2337CB8100530323 /* OrganismsNX.json */; };
 		1ED295F423231F630059D117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED295F323231F630059D117 /* AppDelegate.swift */; };
-		1ED295F623231F630059D117 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED295F523231F630059D117 /* FirstViewController.swift */; };
-		1ED295F823231F630059D117 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED295F723231F630059D117 /* SecondViewController.swift */; };
 		1ED295FB23231F630059D117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED295F923231F630059D117 /* Main.storyboard */; };
 		1ED295FD23231F660059D117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED295FC23231F660059D117 /* Assets.xcassets */; };
 		1ED2960023231F660059D117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED295FE23231F660059D117 /* LaunchScreen.storyboard */; };
@@ -22,13 +26,18 @@
 		1ED296162328307C0059D117 /* Organism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED296152328307C0059D117 /* Organism.swift */; };
 		1ED29619232834990059D117 /* Organisms.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ED29618232834990059D117 /* Organisms.json */; };
 		1ED2961B232836BE0059D117 /* OrganismRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2961A232836BE0059D117 /* OrganismRepo.swift */; };
+		FFDA9DAA676D8945263607A8 /* Pods_Burrito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A38B6F43B3DA07B0757E8E4 /* Pods_Burrito.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E09AB6A2336CD3200530323 /* OrganismGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismGroup.swift; sourceTree = "<group>"; };
+		1E09AB6E2336ECD900530323 /* GroupsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCollectionViewController.swift; sourceTree = "<group>"; };
+		1E09AB732337B87200530323 /* GroupsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E09AB762337BBAF00530323 /* GroupDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailTableViewCell.swift; sourceTree = "<group>"; };
+		1E09AB782337C02A00530323 /* GroupDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailTableViewController.swift; sourceTree = "<group>"; };
+		1E09AB7A2337CB8100530323 /* OrganismsNX.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OrganismsNX.json; sourceTree = "<group>"; };
 		1ED295F023231F630059D117 /* Burrito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Burrito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED295F323231F630059D117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1ED295F523231F630059D117 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1ED295F723231F630059D117 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		1ED295FA23231F630059D117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1ED295FC23231F660059D117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ED295FF23231F660059D117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +51,9 @@
 		1ED296152328307C0059D117 /* Organism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organism.swift; sourceTree = "<group>"; };
 		1ED29618232834990059D117 /* Organisms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Organisms.json; sourceTree = "<group>"; };
 		1ED2961A232836BE0059D117 /* OrganismRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismRepo.swift; sourceTree = "<group>"; };
+		2D22F7610ABF81166616E66D /* Pods-Burrito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burrito.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Burrito/Pods-Burrito.debug.xcconfig"; sourceTree = "<group>"; };
+		8A38B6F43B3DA07B0757E8E4 /* Pods_Burrito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Burrito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAA9F40C5D3FE008E4FFAC7 /* Pods-Burrito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burrito.release.xcconfig"; path = "Pods/Target Support Files/Pods-Burrito/Pods-Burrito.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,20 +61,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDA9DAA676D8945263607A8 /* Pods_Burrito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E09AB692336BC1500530323 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1ED296152328307C0059D117 /* Organism.swift */,
+				1ED2961A232836BE0059D117 /* OrganismRepo.swift */,
+				1E09AB6A2336CD3200530323 /* OrganismGroup.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E09AB722337B84000530323 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				1E09AB6E2336ECD900530323 /* GroupsCollectionViewController.swift */,
+				1E09AB732337B87200530323 /* GroupsCollectionViewCell.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		1E09AB752337BB5C00530323 /* GroupDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1E09AB762337BBAF00530323 /* GroupDetailTableViewCell.swift */,
+				1E09AB782337C02A00530323 /* GroupDetailTableViewController.swift */,
+			);
+			path = GroupDetail;
+			sourceTree = "<group>";
+		};
+		1E09AB7C2337E3F900530323 /* OrganismDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1ED2960E232329630059D117 /* OrganismDetailViewController.swift */,
+			);
+			path = OrganismDetail;
+			sourceTree = "<group>";
+		};
 		1ED295E723231F630059D117 = {
 			isa = PBXGroup;
 			children = (
+				1E09AB7C2337E3F900530323 /* OrganismDetail */,
+				1E09AB752337BB5C00530323 /* GroupDetail */,
+				1E09AB722337B84000530323 /* Groups */,
+				1E09AB692336BC1500530323 /* Model */,
 				1ED2961223232ED60059D117 /* Data */,
-				1ED2960E232329630059D117 /* OrganismDetailViewController.swift */,
 				1ED2960D2323280C0059D117 /* Views */,
 				1ED295F223231F630059D117 /* Burrito */,
 				1ED295F123231F630059D117 /* Products */,
+				5B6A855D36B65B69CDBEC40F /* Pods */,
+				F5086FFE3592FFB90D711626 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,7 +137,6 @@
 				1ED295FE23231F660059D117 /* LaunchScreen.storyboard */,
 				1ED2960123231F660059D117 /* Info.plist */,
 				1ED2961023232DAA0059D117 /* MarineLifeGroups.swift */,
-				1ED296152328307C0059D117 /* Organism.swift */,
 			);
 			path = Burrito;
 			sourceTree = "<group>";
@@ -94,8 +147,6 @@
 				1ED296092323276F0059D117 /* CategoryTableViewController.swift */,
 				1ED2960B232327C40059D117 /* TideDataViewController.swift */,
 				1ED29607232320470059D117 /* CitizenScienceViewController.swift */,
-				1ED295F523231F630059D117 /* FirstViewController.swift */,
-				1ED295F723231F630059D117 /* SecondViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,9 +156,26 @@
 			children = (
 				1ED2961323232F0B0059D117 /* MasterGroups.json */,
 				1ED29618232834990059D117 /* Organisms.json */,
-				1ED2961A232836BE0059D117 /* OrganismRepo.swift */,
+				1E09AB7A2337CB8100530323 /* OrganismsNX.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		5B6A855D36B65B69CDBEC40F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D22F7610ABF81166616E66D /* Pods-Burrito.debug.xcconfig */,
+				9FAA9F40C5D3FE008E4FFAC7 /* Pods-Burrito.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5086FFE3592FFB90D711626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A38B6F43B3DA07B0757E8E4 /* Pods_Burrito.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1ED2960423231F660059D117 /* Build configuration list for PBXNativeTarget "Burrito" */;
 			buildPhases = (
+				A588D7A6DD5BFB21BC0EF7BD /* [CP] Check Pods Manifest.lock */,
 				1ED295EC23231F630059D117 /* Sources */,
 				1ED295ED23231F630059D117 /* Frameworks */,
 				1ED295EE23231F630059D117 /* Resources */,
+				DB7183AF132755C8A936CCB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +240,7 @@
 			files = (
 				1ED2960023231F660059D117 /* LaunchScreen.storyboard in Resources */,
 				1ED29619232834990059D117 /* Organisms.json in Resources */,
+				1E09AB7B2337CB8100530323 /* OrganismsNX.json in Resources */,
 				1ED2961423232F0B0059D117 /* MasterGroups.json in Resources */,
 				1ED295FD23231F660059D117 /* Assets.xcassets in Resources */,
 				1ED295FB23231F630059D117 /* Main.storyboard in Resources */,
@@ -178,21 +249,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A588D7A6DD5BFB21BC0EF7BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Burrito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7183AF132755C8A936CCB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Burrito/Pods-Burrito-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lightbox.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Burrito/Pods-Burrito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1ED295EC23231F630059D117 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E09AB742337B87200530323 /* GroupsCollectionViewCell.swift in Sources */,
 				1ED29608232320470059D117 /* CitizenScienceViewController.swift in Sources */,
 				1ED2961B232836BE0059D117 /* OrganismRepo.swift in Sources */,
-				1ED295F823231F630059D117 /* SecondViewController.swift in Sources */,
 				1ED2960C232327C40059D117 /* TideDataViewController.swift in Sources */,
 				1ED2960F232329630059D117 /* OrganismDetailViewController.swift in Sources */,
+				1E09AB792337C02A00530323 /* GroupDetailTableViewController.swift in Sources */,
+				1E09AB772337BBAF00530323 /* GroupDetailTableViewCell.swift in Sources */,
 				1ED2960A2323276F0059D117 /* CategoryTableViewController.swift in Sources */,
 				1ED2961123232DAA0059D117 /* MarineLifeGroups.swift in Sources */,
 				1ED295F423231F630059D117 /* AppDelegate.swift in Sources */,
 				1ED296162328307C0059D117 /* Organism.swift in Sources */,
-				1ED295F623231F630059D117 /* FirstViewController.swift in Sources */,
+				1E09AB6F2336ECD900530323 /* GroupsCollectionViewController.swift in Sources */,
+				1E09AB6B2336CD3200530323 /* OrganismGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +463,7 @@
 		};
 		1ED2960523231F660059D117 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D22F7610ABF81166616E66D /* Pods-Burrito.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -354,6 +482,7 @@
 		};
 		1ED2960623231F660059D117 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FAA9F40C5D3FE008E4FFAC7 /* Pods-Burrito.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
