@@ -1,0 +1,39 @@
+{
+    "stations": [
+        {
+            "name": "Cresent City",
+            "station_id": "9419750"
+        },
+        {
+            "name":"Eureka",
+            "station_id":"9418801"
+        },
+        {
+            "name": "San Francisco",
+            "station_id": "9414290"
+        },
+        {
+            "name": "Monterey",
+            "station_id": "9413450"
+        },        {
+            "name": "Port San Luis",
+            "station_id": "9412110"
+        },
+        {
+            "name":"Santa Barbara",
+            "station_id": "9411340"
+        },
+        {
+            "name": "Santa Monica",
+            "station_id": "9410840"
+        },
+        {
+            "name": "Los Angeles",
+            "station_id": "9410660"
+        },
+        {
+            "name": "La Jolla",
+            "station_id": "9410230"
+        }
+    ]
+}

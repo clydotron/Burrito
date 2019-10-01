@@ -13,6 +13,10 @@
 		1E09AB772337BBAF00530323 /* GroupDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AB762337BBAF00530323 /* GroupDetailTableViewCell.swift */; };
 		1E09AB792337C02A00530323 /* GroupDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AB782337C02A00530323 /* GroupDetailTableViewController.swift */; };
 		1E09AB7B2337CB8100530323 /* OrganismsNX.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E09AB7A2337CB8100530323 /* OrganismsNX.json */; };
+		1E09AB7E23381E5D00530323 /* TideStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AB7D23381E5D00530323 /* TideStation.swift */; };
+		1E09AB80233822BE00530323 /* TideStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E09AB7F233822BE00530323 /* TideStations.json */; };
+		1E09AB82233826BF00530323 /* TideStationRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AB81233826BF00530323 /* TideStationRepo.swift */; };
+		1E09AB842338371500530323 /* TidePrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AB832338371500530323 /* TidePrediction.swift */; };
 		1ED295F423231F630059D117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED295F323231F630059D117 /* AppDelegate.swift */; };
 		1ED295FB23231F630059D117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED295F923231F630059D117 /* Main.storyboard */; };
 		1ED295FD23231F660059D117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED295FC23231F660059D117 /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 		1E09AB762337BBAF00530323 /* GroupDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailTableViewCell.swift; sourceTree = "<group>"; };
 		1E09AB782337C02A00530323 /* GroupDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailTableViewController.swift; sourceTree = "<group>"; };
 		1E09AB7A2337CB8100530323 /* OrganismsNX.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OrganismsNX.json; sourceTree = "<group>"; };
+		1E09AB7D23381E5D00530323 /* TideStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideStation.swift; sourceTree = "<group>"; };
+		1E09AB7F233822BE00530323 /* TideStations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TideStations.json; sourceTree = "<group>"; };
+		1E09AB81233826BF00530323 /* TideStationRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideStationRepo.swift; sourceTree = "<group>"; };
+		1E09AB832338371500530323 /* TidePrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidePrediction.swift; sourceTree = "<group>"; };
 		1ED295F023231F630059D117 /* Burrito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Burrito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED295F323231F630059D117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ED295FA23231F630059D117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,9 +79,12 @@
 		1E09AB692336BC1500530323 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1E09AB7D23381E5D00530323 /* TideStation.swift */,
 				1ED296152328307C0059D117 /* Organism.swift */,
 				1ED2961A232836BE0059D117 /* OrganismRepo.swift */,
 				1E09AB6A2336CD3200530323 /* OrganismGroup.swift */,
+				1E09AB81233826BF00530323 /* TideStationRepo.swift */,
+				1E09AB832338371500530323 /* TidePrediction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +168,7 @@
 				1ED2961323232F0B0059D117 /* MasterGroups.json */,
 				1ED29618232834990059D117 /* Organisms.json */,
 				1E09AB7A2337CB8100530323 /* OrganismsNX.json */,
+				1E09AB7F233822BE00530323 /* TideStations.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -239,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ED2960023231F660059D117 /* LaunchScreen.storyboard in Resources */,
+				1E09AB80233822BE00530323 /* TideStations.json in Resources */,
 				1ED29619232834990059D117 /* Organisms.json in Resources */,
 				1E09AB7B2337CB8100530323 /* OrganismsNX.json in Resources */,
 				1ED2961423232F0B0059D117 /* MasterGroups.json in Resources */,
@@ -313,9 +326,12 @@
 				1ED2960C232327C40059D117 /* TideDataViewController.swift in Sources */,
 				1ED2960F232329630059D117 /* OrganismDetailViewController.swift in Sources */,
 				1E09AB792337C02A00530323 /* GroupDetailTableViewController.swift in Sources */,
+				1E09AB842338371500530323 /* TidePrediction.swift in Sources */,
+				1E09AB7E23381E5D00530323 /* TideStation.swift in Sources */,
 				1E09AB772337BBAF00530323 /* GroupDetailTableViewCell.swift in Sources */,
 				1ED2960A2323276F0059D117 /* CategoryTableViewController.swift in Sources */,
 				1ED2961123232DAA0059D117 /* MarineLifeGroups.swift in Sources */,
+				1E09AB82233826BF00530323 /* TideStationRepo.swift in Sources */,
 				1ED295F423231F630059D117 /* AppDelegate.swift in Sources */,
 				1ED296162328307C0059D117 /* Organism.swift in Sources */,
 				1E09AB6F2336ECD900530323 /* GroupsCollectionViewController.swift in Sources */,

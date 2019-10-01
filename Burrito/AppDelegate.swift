@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var mainGroups: Groups?
     var organismRepo: OrganismRepo?
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         mainGroups = Groups.loadFromJSONFile(fileName: "MasterGroups.json")
         
