@@ -1,0 +1,23 @@
+{
+"tidePools": [
+    {
+        "title": "Fitzgerald Marine Reserve",
+        "details":"Moss Beach",
+        "lat":37.523897,
+        "lon":-122.517641
+    },
+    {
+        "title": "Point Loma Tide Pools",
+        "details":"Cabrillo National Monument",
+        "lat":32.669107,
+        "lon":-117.245193
+    },
+    {
+        "title": "Duxbury Reef",
+        "details":"Agate County Park",
+        "lat":37.897119,
+        "lon":-122.710932
+    }
+    
+    ]
+}

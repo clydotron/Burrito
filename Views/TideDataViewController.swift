@@ -27,7 +27,7 @@ private let reuseIdentifier = "TideInfoCell"
         }
     }
     
-    var requestedStation : String
+    var requestedStation : String = ""
     
     
     @IBOutlet weak var stationNameLabel: UILabel!

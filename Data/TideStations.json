@@ -2,38 +2,63 @@
     "stations": [
         {
             "name": "Cresent City",
-            "station_id": "9419750"
+            "station_id": "9419750",
+            "lat":41.73527778,
+            "lon":-124.18361111
         },
         {
             "name":"Eureka",
-            "station_id":"9418801"
+            "station_id":"9418767",
+            "lat":40.76666667,
+            "lon":-124.21666667
+        },
+        {
+            "name": "Arena Cove",
+            "station_id": "9416841",
+            "lat":38.90250000,
+            "lon":-123.70194444
         },
         {
             "name": "San Francisco",
-            "station_id": "9414290"
+            "station_id": "9414290",
+            "lat":37.80111111,
+            "lon":-122.45250000
         },
         {
             "name": "Monterey",
-            "station_id": "9413450"
-        },        {
+            "station_id": "9413450",
+            "lat":36.60083333,
+            "lon":-121.88416667
+        },
+        {
             "name": "Port San Luis",
-            "station_id": "9412110"
+            "station_id": "9412110",
+            "lat":35.16694444,
+            "lon":-120.75055556
         },
         {
             "name":"Santa Barbara",
-            "station_id": "9411340"
+            "station_id": "9411340",
+            "lat":34.40055556,
+            "lon":-119.68500000
         },
         {
             "name": "Santa Monica",
-            "station_id": "9410840"
+            "station_id": "9410840",
+            "lat":34.00833333,
+            "lon":-118.50000000
         },
         {
             "name": "Los Angeles",
-            "station_id": "9410660"
+            "station_id": "9410660",
+            "lat":33.71722222,
+            "lon":-118.26777778
         },
         {
             "name": "La Jolla",
-            "station_id": "9410230"
+            "station_id": "9410230",
+            "lat":32.86666667,
+            "lon":-117.25666667
         }
     ]
 }

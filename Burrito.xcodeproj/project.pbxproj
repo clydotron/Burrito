@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,11 @@
 		1ED296162328307C0059D117 /* Organism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED296152328307C0059D117 /* Organism.swift */; };
 		1ED29619232834990059D117 /* Organisms.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ED29618232834990059D117 /* Organisms.json */; };
 		1ED2961B232836BE0059D117 /* OrganismRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2961A232836BE0059D117 /* OrganismRepo.swift */; };
+		1EFBB8F72394317100FA6F57 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBB8F62394317100FA6F57 /* MapViewController.swift */; };
+		1EFBB8F923943CC900FA6F57 /* TideStationMapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBB8F823943CC900FA6F57 /* TideStationMapPin.swift */; };
+		1EFBB8FB23944A6100FA6F57 /* TidePools.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EFBB8FA23944A6100FA6F57 /* TidePools.json */; };
+		1EFBB8FD23944CE600FA6F57 /* TidePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBB8FC23944CE600FA6F57 /* TidePool.swift */; };
+		1EFBB8FF23944CF600FA6F57 /* TidePoolRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBB8FE23944CF600FA6F57 /* TidePoolRepo.swift */; };
 		FFDA9DAA676D8945263607A8 /* Pods_Burrito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A38B6F43B3DA07B0757E8E4 /* Pods_Burrito.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +64,11 @@
 		1ED296152328307C0059D117 /* Organism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organism.swift; sourceTree = "<group>"; };
 		1ED29618232834990059D117 /* Organisms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Organisms.json; sourceTree = "<group>"; };
 		1ED2961A232836BE0059D117 /* OrganismRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismRepo.swift; sourceTree = "<group>"; };
+		1EFBB8F62394317100FA6F57 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1EFBB8F823943CC900FA6F57 /* TideStationMapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideStationMapPin.swift; sourceTree = "<group>"; };
+		1EFBB8FA23944A6100FA6F57 /* TidePools.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TidePools.json; sourceTree = "<group>"; };
+		1EFBB8FC23944CE600FA6F57 /* TidePool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidePool.swift; sourceTree = "<group>"; };
+		1EFBB8FE23944CF600FA6F57 /* TidePoolRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidePoolRepo.swift; sourceTree = "<group>"; };
 		2D22F7610ABF81166616E66D /* Pods-Burrito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burrito.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Burrito/Pods-Burrito.debug.xcconfig"; sourceTree = "<group>"; };
 		8A38B6F43B3DA07B0757E8E4 /* Pods_Burrito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Burrito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAA9F40C5D3FE008E4FFAC7 /* Pods-Burrito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burrito.release.xcconfig"; path = "Pods/Target Support Files/Pods-Burrito/Pods-Burrito.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +95,9 @@
 				1E09AB6A2336CD3200530323 /* OrganismGroup.swift */,
 				1E09AB81233826BF00530323 /* TideStationRepo.swift */,
 				1E09AB832338371500530323 /* TidePrediction.swift */,
+				1EFBB8F823943CC900FA6F57 /* TideStationMapPin.swift */,
+				1EFBB8FC23944CE600FA6F57 /* TidePool.swift */,
+				1EFBB8FE23944CF600FA6F57 /* TidePoolRepo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,6 +171,7 @@
 				1ED296092323276F0059D117 /* CategoryTableViewController.swift */,
 				1ED2960B232327C40059D117 /* TideDataViewController.swift */,
 				1ED29607232320470059D117 /* CitizenScienceViewController.swift */,
+				1EFBB8F62394317100FA6F57 /* MapViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +183,7 @@
 				1ED29618232834990059D117 /* Organisms.json */,
 				1E09AB7A2337CB8100530323 /* OrganismsNX.json */,
 				1E09AB7F233822BE00530323 /* TideStations.json */,
+				1EFBB8FA23944A6100FA6F57 /* TidePools.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -251,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ED2960023231F660059D117 /* LaunchScreen.storyboard in Resources */,
+				1EFBB8FB23944A6100FA6F57 /* TidePools.json in Resources */,
 				1E09AB80233822BE00530323 /* TideStations.json in Resources */,
 				1ED29619232834990059D117 /* Organisms.json in Resources */,
 				1E09AB7B2337CB8100530323 /* OrganismsNX.json in Resources */,
@@ -291,26 +307,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Burrito/Pods-Burrito-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
-				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
-				"${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Burrito/Pods-Burrito-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lightbox.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Burrito/Pods-Burrito-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Burrito/Pods-Burrito-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Burrito/Pods-Burrito-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -323,6 +328,8 @@
 				1E09AB742337B87200530323 /* GroupsCollectionViewCell.swift in Sources */,
 				1ED29608232320470059D117 /* CitizenScienceViewController.swift in Sources */,
 				1ED2961B232836BE0059D117 /* OrganismRepo.swift in Sources */,
+				1EFBB8FF23944CF600FA6F57 /* TidePoolRepo.swift in Sources */,
+				1EFBB8FD23944CE600FA6F57 /* TidePool.swift in Sources */,
 				1ED2960C232327C40059D117 /* TideDataViewController.swift in Sources */,
 				1ED2960F232329630059D117 /* OrganismDetailViewController.swift in Sources */,
 				1E09AB792337C02A00530323 /* GroupDetailTableViewController.swift in Sources */,
@@ -336,6 +343,8 @@
 				1ED296162328307C0059D117 /* Organism.swift in Sources */,
 				1E09AB6F2336ECD900530323 /* GroupsCollectionViewController.swift in Sources */,
 				1E09AB6B2336CD3200530323 /* OrganismGroup.swift in Sources */,
+				1EFBB8F72394317100FA6F57 /* MapViewController.swift in Sources */,
+				1EFBB8F923943CC900FA6F57 /* TideStationMapPin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
